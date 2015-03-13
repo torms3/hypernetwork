@@ -17,7 +17,7 @@ namespace HN
 	class Label : public IValue
 	{
 	public:				
-							Label(){}
+							 Label(){}
 		virtual				~Label(){}
 
 		bool				operator==( const Label& rhs ) const;
