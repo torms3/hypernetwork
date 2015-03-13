@@ -24,7 +24,7 @@ namespace HN
 		bool				operator!=( const Label& rhs ) const;
 		bool				operator<( const Label& rhs ) const;
 				
-		int					GetValue() const	{ return m_label; }
+		int					GetValue() const 	{ return m_label; }
 		void				SetValue( int v )	{ m_label = v; }
 
 #if defined( _TEST )
